@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <style>
+    body {
+      background-image: url('donate1.jpg');
+      height: 100%;
+      background-size: cover;
+    }
+
+    #content {
+      justify-content:right;
+      background-color: black;
+      width: 300px;
+      background: rgb(0, 0, 0, 0.6);
+      color: white;
+    }
+    
+
+   
+    #bot {
+      background-color: forte;
+      opacity: 0.8
+    }
+
+    #t {
+      font-family: Forte;
+    }
+  </style>
+  <title>Donate</title>
+</head>
+
+<body class="text-center">
+  <br><br><br><br>
+
+
+  <div id="content" class="container">
+    <div class="row">
+      <div class="col"></div>
+      <div class="col-8">
+        <br>
+       
+        <h1 class="cover-heading" id="t" > Donate</h1>
+        <p class="lead">A small amount that is donated be very helpful for one who need .
+        </p>
+        <p class="lead">
+        <form>
+          <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_H5vFmrH45WmP8x" async> </script> 
+        </form>
+        </p>
+      </div>
+      <div class="col"></div>
+    </div>
+  </div>
+
+
+  <footer class="fixed-bottom mastfoot mt-auto bg-white text-black" id="bot">
+    <div class="inner">
+      <center>
+        <p>
+        <h4> Built by  SAURABH SHARMA </h4>
+        </p>
+      </center>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
